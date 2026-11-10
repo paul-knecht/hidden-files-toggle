@@ -11,6 +11,12 @@ Finder restarts briefly on each toggle, because that is how it picks up
 the setting. Finder also has a built-in shortcut for the same thing:
 `⇧⌘.` in any Finder window.
 
+## Why I built it
+
+Hidden folders matter when I build with Claude Code, for example `.claude`, so I wanted a one-click switch.
+
+Built with [Claude Code](https://claude.com/claude-code) while learning Swift, Xcode and Git.
+
 ## How it works
 
 It runs `defaults write com.apple.finder AppleShowAllFiles -bool true/false`
