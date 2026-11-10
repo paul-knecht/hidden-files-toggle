@@ -63,7 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     func updateDisplay() {
         let shown = HiddenFiles.areShown()
 
-        let symbolName = shown ? "eye" : "eye.slash"
+        let symbolName = shown ? "square.stack.3d.up" : "square.stack.3d.up.slash"
         let description = shown ? "Hidden files: shown" : "Hidden files: not shown"
 
         statusItem.button?.image = NSImage(systemSymbolName: symbolName, accessibilityDescription: description)
